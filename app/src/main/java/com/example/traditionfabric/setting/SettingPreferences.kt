@@ -1,4 +1,4 @@
-package com.example.trafa.ui.setting
+package com.example.traditionfabric.ui.setting
 
 import android.content.Context
 import androidx.datastore.preferences.core.booleanPreferencesKey

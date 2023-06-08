@@ -9,17 +9,31 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TraditionFabric"
+        android:theme="@style/Theme.TRAFA"
         tools:targetApi="31">
+
+        <activity
+            android:name=".ui.info.DisclaimerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.info.InfoActivity"
+            android:exported="false"
+            android:label="@string/informasi" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TRAFA.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.setting.SettingActivity"
+            android:exported="false"
+            android:label="@string/pengaturan" />
     </application>
 
 </manifest>

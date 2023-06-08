@@ -1,4 +1,4 @@
-package com.example.trafa.ui.home
+package com.example.traditionfabric.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,9 @@ import android.view.ViewGroup
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.trafa.R
-import com.example.trafa.databinding.FragmentHomeBinding
+import com.example.traditionfabric.R
+import com.example.traditionfabric.databinding.FragmentHomeBinding
+
 
 class HomeFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.example.trafa.ui.slideshow
+package com.example.traditionfabric.ui.slideshow
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

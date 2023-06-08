@@ -1,8 +1,8 @@
-package com.example.trafa.ui.info
+package com.example.traditionfabric.ui.info
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.trafa.R
+import com.example.traditionfabric.R
 
 class DisclaimerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

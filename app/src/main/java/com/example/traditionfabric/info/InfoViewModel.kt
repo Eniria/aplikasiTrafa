@@ -1,4 +1,4 @@
-package com.example.trafa.ui.info
+package com.example.traditionfabric.ui.info
 
 import android.os.Bundle
 import android.view.View

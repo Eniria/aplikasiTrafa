@@ -1,3 +1,44 @@
 <resources>
-    <string name="app_name">Tradition Fabric</string>
+    <string name="app_name">TRAFA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_riwayat">History</string>
+    <string name="menu_favorite">Favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="camera">Camera</string>
+    <string name="menu_info">Informasi</string>
+    <string name="menu_camera">Kamera</string>
+    <string name="tentang">Tentang</string>
+    <string name="informasi">Tentang</string>
+    <string name="pengaturan">Pengaturan</string>
+
+
+    <!--    // isi informasi-->
+    <string name="what_is_trafa">Apa itu Trafa?</string>
+    <string name="penjelasan">Trafa adalah aplikasi mobile menggunakan AI yang dapat mengidentifikasi kain tradisional menggunakan kamera smartphone dan memberikan arti dari setiap motif dari kain tradisional di Indonesia</string>
+    <string name="summary">Ringkasan</string>
+    <string name="summary_p1">Indonesia memiliki ragam budaya yang sangat mempesona, salah satunya keragaman kain tradisional. Setiap daerah memiliki kain tradisional yang digunakan untuk keperluan adat dan mengandung motif, corak, dan warna dengan makna, filosofi, dan cerita yang diwariskan secara turun temurun.</string>
+    <string name="summary_p2">Banyak orang yang masih belum mengetahui makna dan filosofi dari masing-masing kain tradisional tersebut. Jika kecenderungan ini terus berlanjut, masyarakat akan kehilangan jati diri dan nilai seni budaya di setiap daerah di Indonesia akan berkurang. Dengan kemajuan teknologi, seharusnya pengetahuan tentang budaya kain tradisional semakin meningkat sehingga masyarakat dapat mencintai dan bangga dengan budaya ini, serta kelestarian budaya ini dapat berlanjut untuk generasi selanjutnya.</string>
+    <string name="summary_p3">Kami mengusulkan ide aplikasi yang dirancang menggunakan ML, yang dapat membantu orang mendeteksi jenis kain tradisional dan memberikan informasi yang relevan mengenai deskripsi kain tradisional. Hal ini dapat menumbuhkan rasa cinta terhadap warisan budaya yang kita miliki, sebagaimana tagline kami mengatakan: “aku cinta kain kita”.</string>
+    <string name="teams">Kelompok</string>
+    <string name="code">Proyek Capstone Bangkit Academy 2023 dari anggota Tim Trafa [C23-PR586]</string>
+    <string name="list">(Machine Learning) M151DSY1764-Imelda Purba-Universitas Brawijaya
+(Machine Learning) M168DSY2588-Nur Alifia Riany-Universitas Esa Unggul
+(Machine Learning) M193DKX4694-Azis Yulianas-UIN Maulana Malik Ibrahim Malang
+(Cloud Computing) C163DSY2714-Yuha Aulia Nisa-Universitas Dian Nuswantoro
+(Cloud Computing) C163DSY3136-Ervira Aliya Nabila-Universitas Dian Nuswantoro
+(Mobile Development) A223DKY4116-Eniria Gulo-Universitas Kristen Immanuel</string>
+
+    <string name="traditionan_fabric">TRAFA</string>
+    <string name="Trafa">TRAFA</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="Batik">Songket Bali</string>
+    <string name="gunakan">Gunakan Foto</string>
 </resources>

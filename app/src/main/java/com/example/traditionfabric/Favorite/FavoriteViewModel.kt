@@ -1,4 +1,4 @@
-package com.example.trafa.ui.Favorite
+package com.example.traditionfabaric.ui.Favorite
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

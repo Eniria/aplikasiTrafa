@@ -1,4 +1,4 @@
-package com.example.trafa.ui.slideshow
+package com.example.traditionfabric.ui.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.trafa.databinding.FragmentRiwayatBinding
+import com.example.traditionfabric.databinding.FragmentRiwayatBinding
 class RiwayatFragment : Fragment() {
 
     private var _binding: FragmentRiwayatBinding? = null

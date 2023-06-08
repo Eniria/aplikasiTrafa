@@ -1,4 +1,4 @@
-package com.example.trafa.ui.Favorite
+package com.example.traditionfabric.ui.Favorite
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.trafa.databinding.FragmentFavoriteBinding
+import com.example.traditionfabaric.ui.Favorite.FavoriteViewModel
+import com.example.traditionfabric.databinding.FragmentFavoriteBinding
 
 class FavoriteFragment : Fragment() {
 

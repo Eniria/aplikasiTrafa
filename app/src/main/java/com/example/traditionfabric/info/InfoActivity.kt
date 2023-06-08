@@ -1,11 +1,9 @@
-package com.example.trafa.ui.info
+package com.example.traditionfabric.ui.info
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import com.example.trafa.R
-import com.example.trafa.databinding.ActivityInfoBinding
-import com.example.trafa.databinding.ActivitySettingBinding
+import com.example.traditionfabric.R
 
 class InfoActivity : AppCompatActivity() {
 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.info.InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:background="@drawable/trafa"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="215dp"
+                android:layout_height="46dp"
+                android:background="@drawable/apaitutrafa" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:text="@string/penjelasan"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ringkasan" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:text="@string/summary_p1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:text="@string/summary_p2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:text="@string/summary_p3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="45dp"
+                android:background="@drawable/kelompok" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:text="@string/code"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:text="@string/list"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,4 +1,4 @@
-package com.example.trafa.ui.Camera
+package com.example.traditonfabric.ui.Camera
 
 import android.graphics.Bitmap
 import java.io.File

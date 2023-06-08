@@ -1,11 +1,13 @@
-package com.example.trafa.ui.setting
+package com.example.traditionfabric.ui.setting
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatDelegate
-import com.example.trafa.databinding.ActivitySettingBinding
+import com.example.traditionfabric.databinding.ActivitySettingBinding
+import com.example.traditionfabric.ui.setting.SettingPreferences
+import com.example.traditionfabric.ui.setting.SettingViewModel
 
 class SettingActivity : AppCompatActivity() {
 
