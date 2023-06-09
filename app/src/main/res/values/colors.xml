@@ -8,6 +8,8 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="sage">#99A98F</color>
-    <color name="young_leaf">#b0c86f</color>
+    <color name="young_leaf">#D6E8DB</color>
     <color name="Read">#800D05</color>
+    <color name="rbg">#EEEEEE</color>
+
 </resources>

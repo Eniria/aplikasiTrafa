@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/young_leaf"
     tools:context=".ui.info.InfoFragment">
 
     <Button
         android:id="@+id/btn_tentang"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@android:color/white"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
         android:gravity="start"
         android:text="@string/tentang"
-        android:textColor="@color/black"
-        android:textColorHint="#C3352B2B" />
+        android:textColor="@color/white"
+        android:textColorHint="#C3352B2B"
+        app:layout_constraintEnd_toStartOf="@+id/btn_disclaimer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_disclaimer"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:background="@android:color/white"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
         android:gravity="start"
         android:text="@string/disclaimer"
-        android:textColor="@color/black"
-        android:textColorHint="#C3352B2B" />
+        android:textColor="@color/white"
+        android:textColorHint="#C3352B2B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_tentang"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
-</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
