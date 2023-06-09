@@ -1,13 +1,16 @@
 package com.example.traditionfabric.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.traditionfabric.R
+import com.example.traditionfabric.TfLite.TensorFlow
 import com.example.traditionfabric.databinding.FragmentHomeBinding
 
 
@@ -27,14 +30,25 @@ class HomeFragment : Fragment() {
     ): View {
         val homeViewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
 
+
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-       // pemanggilan search di dalam home
-       searchView = root.findViewById(R.id.searchView)
+        // pemangglan btnCamera
+        val cameraButton: Button = root.findViewById(R.id.cameraBtn)
+
+        // pemanggilan search di dalam home
+        searchView = root.findViewById(R.id.searchView)
 
         homeViewModel.text.observe(viewLifecycleOwner) {
 //            textView.text = it
+
+            // menghubungkan button camera ke halam tensorflow
+            cameraButton.setOnClickListener {
+                val intent = Intent(requireContext(), TensorFlow::class.java)
+                startActivity(intent)
+            }
+
         }
         return root
     }
